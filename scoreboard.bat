@@ -15,16 +15,16 @@ echo Skor eklemek icin secim yapiniz.
 set /p secim=""
 echo Kac puan?
 set /p puan=""
-if "%secim%"=="a" (
+if "%secim%"=="1" (
 set /a ilk+=puan
 goto baslangic
-) else if "%secim%"=="b" (
+) else if "%secim%"=="2" (
 set /a ikinci+=puan
 goto baslangic
-) else if "%secim%"=="c" (
+) else if "%secim%"=="3" (
 set /a ucuncu+=puan
 goto baslangic
-) else if "%secim%"=="d" (
+) else if "%secim%"=="4" (
 set /a dorduncu+=puan
 goto baslangic
 ) else (

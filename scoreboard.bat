@@ -6,10 +6,10 @@ set dorduncu=0
 :baslangic
 cls
 echo Skor Tablosu
-echo A sinifi: %ilk% puan
-echo B sinifi: %ikinci% puan
-echo C sinifi: %ucuncu% puan
-echo D sinifi: %dorduncu% puan
+echo Ahmet: %ilk% puan
+echo Mehmet: %ikinci% puan
+echo Ali: %ucuncu% puan
+echo Veli: %dorduncu% puan
 echo.
 echo Skor eklemek icin secim yapiniz.
 set /p secim=""
